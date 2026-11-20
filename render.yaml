@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bvc-smart-portal
+    runtime: python
+    buildCommand: pip install -r Requirements.txt
+    startCommand: python server.py
+    envVars:
+      - key: PORTAL_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
