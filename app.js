@@ -154,11 +154,11 @@ function updateLoginFields() {
         fieldsDiv.innerHTML = `
             <div class="auth-input-group mb-2">
                 <span class="auth-input-icon"><i class="fas fa-chalkboard-teacher"></i></span>
-                <input type="text" id="login-fac-name" class="input-field input-with-icon" placeholder="Faculty Name (e.g. Krishnaveni Madam)" value="Krishnaveni Madam" autocomplete="username">
+                <input type="text" id="login-fac-name" class="input-field input-with-icon" placeholder="Faculty Name (e.g. G Santoshi Lakshmi)" value="G Santoshi Lakshmi" autocomplete="username">
             </div>
             <div class="auth-input-group mb-1">
                 <span class="auth-input-icon"><i class="fas fa-lock"></i></span>
-                <input type="password" id="login-fac-phone" class="input-field input-with-icon input-with-eye" placeholder="10-digit Phone Number" value="1234567890" autocomplete="current-password">
+                <input type="password" id="login-fac-phone" class="input-field input-with-icon input-with-eye" placeholder="10-digit Phone Number" value="8367502017" autocomplete="current-password">
                 <button type="button" class="auth-eye-btn" onclick="togglePasswordVisibility('login-fac-phone', 'faculty-pass-eye')" title="Show/Hide Password">
                     <i class="fas fa-eye" id="faculty-pass-eye"></i>
                 </button>
@@ -821,6 +821,7 @@ async function requestGoogleOtp(email, name, role, channel = 'both') {
     if (customPassInp) {
         if (cleanEmail.includes('25221a0556')) customPassInp.value = '9876543210';
         else if (cleanEmail.includes('krishnaveni')) customPassInp.value = '1234567890';
+        else if (cleanEmail.includes('faculty008') || cleanEmail.includes('santoshi') || cleanEmail.includes('santhoshi')) customPassInp.value = '8367502017';
         else if (cleanEmail.includes('bsnmurthy')) customPassInp.value = '10221A0501';
         else if (cleanEmail.includes('principal')) customPassInp.value = 'prin123';
         else if (cleanEmail.includes('admin')) customPassInp.value = 'admin123';
@@ -1269,7 +1270,7 @@ async function processLogin() {
         // Extract the ID part
         const idPart = lowerEmail.split('@')[0].toUpperCase();
         // Auto-detect role from the email/ID
-        if (idPart.includes('KRISHNAVENI') || idPart.startsWith('FAC')) {
+        if (idPart.includes('KRISHNAVENI') || idPart.includes('SANTOSHI') || idPart.includes('SANTHOSHI') || idPart.startsWith('FAC')) {
             role = 'faculty';
         } else if (idPart.includes('HOD') || idPart.includes('BSNMURTHY')) {
             role = 'hod';
@@ -1402,7 +1403,7 @@ function updatePersonalizedGreeting() {
 
     if (currentUser.role === 'student') {
         subEl.innerText = `Roll No: ${currentUser.reg_no} | Branch: ${currentUser.branch || 'CSE'} | Year: ${currentUser.year_of_study || 2} | Sec: ${currentUser.section || 'A'} | Email: ${currentUser.email || currentUser.reg_no + '@bvcgroup.in'}`;
-        tagEl.innerHTML = `<span class="live-beacon-dot" style="display:inline-block; vertical-align:middle; margin-right:6px;"></span>Class Teacher: Krishnaveni Madam`;
+        tagEl.innerHTML = `<span class="live-beacon-dot" style="display:inline-block; vertical-align:middle; margin-right:6px;"></span>Class Teacher: G Santoshi Lakshmi`;
     } else if (currentUser.role === 'hod') {
         subEl.innerText = `Branch HOD Authorization: ${currentUser.branch} Department | Login Pass: ${currentUser.reg_no}`;
         tagEl.innerHTML = `<span class="live-beacon-dot" style="display:inline-block; vertical-align:middle; margin-right:6px;"></span>Restricted: ${currentUser.branch}`;
