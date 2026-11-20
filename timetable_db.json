@@ -207,7 +207,9 @@
             "subject": "ADVANCED DATA STRUCTURES AND ALGORITHM ANALYSIS",
             "subject_code": "ADS & AA",
             "phone": "8367502017",
-            "sections": []
+            "sections": [
+                "I CSE-A"
+            ]
         },
         {
             "id": 10,
