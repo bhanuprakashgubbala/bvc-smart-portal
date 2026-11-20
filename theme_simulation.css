@@ -1,0 +1,850 @@
+/* ==========================================================================
+   PRO THEME & SKY SIMULATION SYSTEM (Login Page Exclusive)
+   Clean Plain Sun & Moon • Single-Species Small Black Birds in Wavy Flock
+   Daytime Shows: Bird Murmuration, Pet Show, Rainbow, Rain
+   Nighttime Shows: Astronaut Spacewalk, Meteor Shower, Aurora, Fireflies
+   ========================================================================== */
+
+/* --- 1. CLEAN PLAIN SUN & MOON (Zero Blurry Overlays or Fog) --- */
+.daylight-sunbeam,
+.sun-corona,
+.sun-corona-outer,
+.pro-solar-flare,
+.pro-cloud-layer,
+.moon-halo,
+.pro-lunar-ray {
+    display: none !important;
+}
+
+/* In Day Mode: Strictly hide celestial night sky, stars, meteors, and moon */
+body.theme-light #celestial-night-sky,
+body.faculty-light-theme #celestial-night-sky,
+body.theme-light .celestial-night-sky,
+body.faculty-light-theme .celestial-night-sky,
+body.theme-light #celestial-stars,
+body.faculty-light-theme #celestial-stars,
+body.theme-light .celestial-stars,
+body.faculty-light-theme .celestial-stars,
+body.theme-light .star,
+body.faculty-light-theme .star,
+body.theme-light .shooting-star,
+body.faculty-light-theme .shooting-star,
+body.theme-light .celestial-moon,
+body.faculty-light-theme .celestial-moon,
+body.theme-light .pro-meteor-shower,
+body.faculty-light-theme .pro-meteor-shower,
+body.theme-light .pro-aurora-ribbon,
+body.faculty-light-theme .pro-aurora-ribbon,
+body.theme-light .fireflies-show-layer,
+body.faculty-light-theme .fireflies-show-layer,
+body.theme-light .astronaut-show-layer,
+body.faculty-light-theme .astronaut-show-layer {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
+
+.daylight-sun {
+    position: absolute;
+    top: 15px;
+    left: clamp(20px, 3.5vw, 42px);
+    width: 76px;
+    height: 76px;
+    pointer-events: none;
+    z-index: 2003 !important;
+}
+
+body.theme-light .daylight-sun,
+body.faculty-light-theme .daylight-sun {
+    z-index: 2003 !important;
+}
+
+.sun-core {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #ffffff 0%, #fff066 30%, #f59e0b 70%, #d97706 100%);
+    box-shadow: 0 0 24px rgba(245, 158, 11, 0.75), 0 0 45px rgba(217, 119, 6, 0.4);
+    animation: none !important;
+}
+
+.celestial-moon {
+    position: absolute;
+    top: 15px;
+    left: clamp(20px, 3.5vw, 42px);
+    width: 68px;
+    height: 68px;
+    pointer-events: none;
+    z-index: 102;
+}
+
+.moon-sphere {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 32%, #ffffff 0%, #f1f5f9 35%, #cbd5e1 70%, #94a3b8 100%);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 35px rgba(186, 230, 253, 0.35);
+    animation: none !important;
+}
+
+/* --- 2. SINGLE-SPECIES SMALL BLACK BIRDS IN WAVY FLOCK --- */
+.daylight-birds {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 104;
+    transition: opacity 0.8s ease;
+}
+
+body:not(.theme-light):not(.faculty-light-theme) .daylight-birds,
+body.theme-dark .daylight-birds,
+body.orbit-to-night .daylight-birds {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+body.theme-light .daylight-birds,
+body.faculty-light-theme .daylight-birds {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.pro-avian-flock {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    width: 180px;
+    height: 120px;
+    pointer-events: none;
+    will-change: transform;
+    animation: flockHorizontalSweep 28s linear infinite, flockAltitudeWave 5.8s ease-in-out infinite;
+}
+
+/* Small Black Bird Element */
+.small-black-bird {
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    pointer-events: none;
+}
+
+.small-black-bird .pro-small-bird-svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: visible;
+}
+
+/* Natural Wing Flapping Up and Down */
+.small-black-bird .bird-w-far {
+    transform-origin: 26px 18px;
+    animation: smallBirdFlapFar 0.68s ease-in-out infinite alternate;
+}
+
+.small-black-bird .bird-w-near {
+    transform-origin: 26px 19px;
+    animation: smallBirdFlapNear 0.68s ease-in-out infinite alternate;
+}
+
+.small-black-bird .bird-body {
+    animation: smallBirdBodyBob 0.68s ease-in-out infinite alternate;
+}
+
+@keyframes smallBirdFlapFar {
+    0% { transform: rotate(-26deg); }
+    100% { transform: rotate(34deg); }
+}
+
+@keyframes smallBirdFlapNear {
+    0% { transform: rotate(26deg); }
+    100% { transform: rotate(-34deg); }
+}
+
+@keyframes smallBirdBodyBob {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-1.5px); }
+}
+
+/* Offsets for Bulk Wave Flock Formation */
+.small-black-bird.b-1 { top: 18px; left: 0px; }
+.small-black-bird.b-2 { top: 0px; left: -30px; animation-delay: -0.12s; }
+.small-black-bird.b-3 { top: 38px; left: -42px; animation-delay: -0.22s; }
+.small-black-bird.b-4 { top: 12px; left: -75px; animation-delay: -0.34s; }
+.small-black-bird.b-5 { top: 48px; left: -90px; animation-delay: -0.46s; }
+.small-black-bird.b-6 { top: 26px; left: -125px; animation-delay: -0.58s; }
+
+/* Sinusoidal Wave Flocking Trajectory */
+@keyframes flockHorizontalSweep {
+    0% { transform: translateX(-180px); }
+    100% { transform: translateX(calc(100vw + 240px)); }
+}
+
+@keyframes flockAltitudeWave {
+    0%, 100% { margin-top: 0px; }
+    25% { margin-top: -24px; }
+    50% { margin-top: 6px; }
+    75% { margin-top: 22px; }
+}
+
+/* --- 3. SHOWTIME: DAYTIME SHOWS --- */
+
+/* A. Grand Avian Murmuration Show */
+.murmuration-overlay {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2003;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.murmuration-overlay.active {
+    opacity: 1;
+}
+
+.murmuration-wave {
+    position: absolute;
+    top: 14%;
+    left: -280px;
+    width: 320px;
+    height: 160px;
+    animation: murmurationFly 14s cubic-bezier(0.25, 0.1, 0.25, 1) forwards, murmurationSwoop 3.6s ease-in-out infinite;
+}
+
+@keyframes murmurationFly {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(100vw + 380px)); }
+}
+
+@keyframes murmurationSwoop {
+    0%, 100% { margin-top: 0; }
+    30% { margin-top: -35px; }
+    70% { margin-top: 30px; }
+}
+
+/* B. Pet Show (Playful Running Puppy) */
+.pet-show-container {
+    position: fixed;
+    bottom: 25px;
+    left: -140px;
+    width: 110px;
+    height: 90px;
+    z-index: 2004;
+    pointer-events: none;
+    will-change: transform;
+}
+
+.pet-show-container.active {
+    animation: petRunAcross 12s linear forwards, petHop 0.45s ease-in-out infinite alternate;
+}
+
+@keyframes petRunAcross {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(100vw + 200px)); }
+}
+
+@keyframes petHop {
+    0% { margin-bottom: 0px; }
+    100% { margin-bottom: 12px; }
+}
+
+.pet-bark-bubble {
+    position: absolute;
+    top: -26px;
+    right: -14px;
+    background: #ffffff;
+    color: #0f172a;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    animation: petBarkPulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes petBarkPulse {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1.1); }
+}
+
+/* C. Rainbow Show */
+.rainbow-show-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 2001;
+    opacity: 0;
+    transition: opacity 1.2s ease;
+    overflow: hidden;
+}
+
+.rainbow-show-layer.active {
+    opacity: 0.88;
+}
+
+.rainbow-arc {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 70vw;
+    height: 70vw;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: radial-gradient(circle at 50% 50%,
+        transparent 61%,
+        rgba(147, 51, 234, 0.55) 63%,
+        rgba(59, 130, 246, 0.6) 65%,
+        rgba(6, 182, 212, 0.6) 67%,
+        rgba(34, 197, 94, 0.6) 69%,
+        rgba(234, 179, 8, 0.6) 71%,
+        rgba(249, 115, 22, 0.6) 73%,
+        rgba(239, 68, 68, 0.6) 75%,
+        transparent 77%
+    );
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+    animation: rainbowGlimmer 8s ease-in-out infinite alternate;
+}
+
+@keyframes rainbowGlimmer {
+    0% { filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4)) brightness(0.95); }
+    100% { filter: drop-shadow(0 0 35px rgba(254, 240, 138, 0.8)) brightness(1.12); }
+}
+
+/* D. Rainy Show */
+.rain-show-layer {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2002;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    background: rgba(15, 23, 42, 0.15);
+}
+
+.rain-show-layer.active {
+    opacity: 1;
+}
+
+.rain-drop {
+    position: absolute;
+    width: 1.5px;
+    height: 28px;
+    background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.7) 100%);
+    opacity: 0.75;
+    animation: rainFall 0.85s linear infinite;
+}
+
+@keyframes rainFall {
+    0% { transform: translateY(-40px) translateX(0); opacity: 0; }
+    15% { opacity: 0.8; }
+    100% { transform: translateY(105vh) translateX(-60px); opacity: 0.3; }
+}
+
+/* --- 4. SHOWTIME: NIGHTTIME SHOWS --- */
+
+/* A. Astronaut Spacewalk Show */
+.astronaut-show-layer {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2003;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.astronaut-show-layer.active {
+    opacity: 1;
+}
+
+.astronaut-holder {
+    position: absolute;
+    top: 25%;
+    left: -140px;
+    width: 100px;
+    height: 130px;
+    animation: astronautSpacewalk 36s linear forwards, astronautZeroGFloat 6.5s ease-in-out infinite;
+}
+
+@keyframes astronautSpacewalk {
+    0% { transform: translateX(0) rotate(-15deg); }
+    50% { transform: translateX(50vw) rotate(8deg); }
+    100% { transform: translateX(calc(100vw + 200px)) rotate(-10deg); }
+}
+
+@keyframes astronautZeroGFloat {
+    0%, 100% { margin-top: 0; }
+    50% { margin-top: -30px; }
+}
+
+/* B. Meteor Shower Show */
+.pro-meteor-shower {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 103;
+}
+
+.pro-shooting-star {
+    position: absolute;
+    height: 2px;
+    background: linear-gradient(-45deg, rgba(255, 255, 255, 1) 0%, rgba(56, 189, 248, 0.7) 40%, transparent 100%);
+    filter: drop-shadow(0 0 6px #38bdf8);
+    border-radius: 999px;
+    transform: rotate(-35deg);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.pro-shooting-star.active {
+    animation: meteorStreak 1.4s cubic-bezier(0.12, 0.8, 0.32, 1) forwards;
+}
+
+@keyframes meteorStreak {
+    0% { width: 0px; transform: translate3d(0, 0, 0) rotate(-35deg); opacity: 0; }
+    15% { opacity: 1; width: 140px; }
+    60% { width: 220px; opacity: 0.9; }
+    100% { width: 0px; transform: translate3d(-380px, 320px, 0) rotate(-35deg); opacity: 0; }
+}
+
+/* C. Aurora Borealis Show */
+.pro-aurora-ribbon {
+    position: absolute;
+    top: -15%;
+    left: -10%;
+    width: 120%;
+    height: 60%;
+    pointer-events: none;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 101;
+    transition: opacity 1.2s ease;
+    filter: blur(45px);
+}
+
+body.aurora-active .pro-aurora-ribbon,
+.pro-aurora-ribbon.active {
+    opacity: 0.52 !important;
+}
+
+.aurora-wave {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+        rgba(52, 211, 153, 0.45) 0%, 
+        rgba(56, 189, 248, 0.4) 28%, 
+        rgba(168, 85, 247, 0.4) 60%, 
+        rgba(236, 72, 153, 0.3) 85%, 
+        transparent 100%);
+    transform-origin: center;
+    animation: auroraDance 18s ease-in-out infinite alternate;
+}
+
+.aurora-wave-2 {
+    animation-duration: 24s;
+    animation-delay: -6s;
+    opacity: 0.75;
+}
+
+@keyframes auroraDance {
+    0% { transform: scaleY(0.9) skewX(-8deg) translateX(-4%); }
+    50% { transform: scaleY(1.15) skewX(6deg) translateX(5%); }
+    100% { transform: scaleY(0.95) skewX(-4deg) translateX(-2%); }
+}
+
+/* D. Fireflies Show */
+.fireflies-show-layer {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2002;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.fireflies-show-layer.active {
+    opacity: 1;
+}
+
+.firefly-sparkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fde047;
+    box-shadow: 0 0 10px #facc15, 0 0 20px #eab308;
+    animation: fireflyFloat 6s ease-in-out infinite alternate, fireflyGlow 1.8s ease-in-out infinite alternate;
+}
+
+@keyframes fireflyFloat {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(40px, -35px); }
+    100% { transform: translate(-30px, 45px); }
+}
+
+@keyframes fireflyGlow {
+    0% { opacity: 0.2; transform: scale(0.6); }
+    100% { opacity: 1; transform: scale(1.3); }
+}
+
+/* --- 5. SIMULATION STUDIO UI (LOGIN PAGE EXCLUSIVE) --- */
+
+/* Launch Button: Only rendered in Login Topbar */
+.sim-studio-launch-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.25) 0%, rgba(168, 85, 247, 0.2) 100%) !important;
+    border: 1px solid rgba(168, 85, 247, 0.4) !important;
+    color: #f1f5f9 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 6px 14px !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 2px 10px rgba(147, 51, 234, 0.18) !important;
+}
+
+.sim-studio-launch-btn:hover {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.4) 0%, rgba(168, 85, 247, 0.35) 100%) !important;
+    border-color: rgba(192, 132, 252, 0.6) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 18px rgba(168, 85, 247, 0.35) !important;
+    transform: translateY(-1px) scale(1.02) !important;
+}
+
+.sim-studio-launch-btn .sim-icon {
+    font-size: 13px;
+    background: linear-gradient(135deg, #38bdf8, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* If user is NOT on login screen, strictly hide button and studio */
+body:not(.login-active) .sim-studio-launch-btn,
+body:not(.login-active) .sim-studio-dock,
+#login-screen.hidden ~ * .sim-studio-dock,
+#login-screen.hidden ~ * .sim-studio-launch-btn {
+    display: none !important;
+}
+
+/* Studio Floating Dock */
+.sim-studio-dock {
+    position: fixed;
+    top: 75px;
+    right: 25px;
+    width: 350px;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 10050;
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 18px;
+    box-shadow: 
+        0 20px 50px rgba(0, 0, 0, 0.65), 
+        0 0 0 1px rgba(168, 85, 247, 0.25),
+        inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #f8fafc;
+    padding: 16px 18px;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+    animation: simStudioAppear 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes simStudioAppear {
+    from { opacity: 0; transform: translateY(-15px) scale(0.96); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.sim-studio-dock.hidden {
+    display: none !important;
+}
+
+/* Studio Header */
+.sim-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+.sim-header-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.sim-header-title .sim-badge-pro {
+    font-size: 9px;
+    font-weight: 800;
+    padding: 2px 7px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
+    color: #ffffff;
+}
+
+.sim-close-btn {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    font-size: 15px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.sim-close-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+/* Sections */
+.sim-section {
+    margin-bottom: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.sim-section-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+.sim-section-label .sim-val-pill {
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* Theme Quick Switcher Row */
+.sim-theme-switch-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.sim-theme-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 8px 10px;
+    color: #f1f5f9;
+    font-size: 11.5px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    transition: all 0.2s ease;
+}
+
+.sim-theme-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sim-theme-btn.active {
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.25) 0%, rgba(99, 102, 241, 0.2) 100%);
+    border-color: #38bdf8;
+    color: #38bdf8;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+}
+
+/* Dynamic Showtime Cards Grid */
+.sim-shows-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.sim-show-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 10px 11px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.sim-show-card:hover {
+    background: rgba(56, 189, 248, 0.15);
+    border-color: rgba(56, 189, 248, 0.4);
+    transform: translateY(-1px);
+}
+
+.sim-show-card.active {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.25) 0%, rgba(56, 189, 248, 0.2) 100%);
+    border-color: #c084fc;
+    box-shadow: 0 0 14px rgba(168, 85, 247, 0.3);
+}
+
+.sim-show-icon {
+    font-size: 18px;
+}
+
+.sim-show-info strong {
+    display: block;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.sim-show-info small {
+    display: block;
+    font-size: 9.5px;
+    color: #94a3b8;
+}
+
+/* Reset / Clear Button */
+.sim-clear-btn {
+    width: 100%;
+    margin-top: 10px;
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #fca5a5;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.sim-clear-btn:hover {
+    background: rgba(239, 68, 68, 0.24);
+    color: #ffffff;
+}
+
+/* Audio Controls */
+.sim-audio-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.sim-switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+}
+
+.sim-switch input { opacity: 0; width: 0; height: 0; }
+
+.sim-slider-switch {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: 0.25s;
+    border-radius: 20px;
+}
+
+.sim-slider-switch:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.25s;
+    border-radius: 50%;
+}
+
+.sim-switch input:checked + .sim-slider-switch { background-color: #38bdf8; }
+.sim-switch input:checked + .sim-slider-switch:before { transform: translateX(16px); }
+
+/* Range Sliders */
+.sim-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 4px;
+    background: #334155;
+    outline: none;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.sim-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #38bdf8;
+    cursor: pointer;
+}
+
+/* Studio Footer */
+.sim-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    font-size: 9.5px;
+    color: #64748b;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.sim-footer .status-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #10b981;
+    margin-right: 4px;
+    box-shadow: 0 0 6px #10b981;
+}

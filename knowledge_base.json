@@ -1,0 +1,207 @@
+{
+    "intents": [
+        {
+            "tags": [
+                "admissions",
+                "admission",
+                "join",
+                "enroll",
+                "apply",
+                "fee",
+                "fees",
+                "cost"
+            ],
+            "response": "BVC Engineering College admissions are based on AP EAPCET counseling and management quota. The standard tuition fee is approximately Rs. 45,000 per semester. For detailed admission criteria and management quota inquiries, please visit the main administration block during working hours."
+        },
+        {
+            "tags": [
+                "hackathon",
+                "hackathons",
+                "hack",
+                "hackton",
+                "hack tonnes",
+                "compete",
+                "competition",
+                "coding"
+            ],
+            "response": "We regularly host massive 24-hour hackathons! You can view upcoming hackathons in the 'Events' section of the portal. During registration, you must specify your domain (like AI, Web, App Dev) and provide a pitch. Teams are usually formed on the spot or pre-registered."
+        },
+        {
+            "tags": [
+                "syllabus",
+                "curriculum",
+                "subjects",
+                "course",
+                "learn"
+            ],
+            "response": "The syllabus is dynamic and depends on your branch. Currently, our advanced curriculum covers AI, Full Stack Development, Cloud Computing, and IoT. To check the exact subjects for your class, please check the Timetable section or the official academic digital portal."
+        },
+        {
+            "tags": [
+                "college",
+                "bvc",
+                "about",
+                "history",
+                "institution",
+                "campus"
+            ],
+            "response": "BVC Engineering College (BVCITS), located in Odalarevu, is a premier technical institution. We offer state-of-the-art facilities, excellent placements in MNCs, and an advanced AI-integrated learning environment. Our vision is to empower students through cutting-edge technology."
+        },
+        {
+            "tags": [
+                "principal",
+                "hod",
+                "dean",
+                "management",
+                "admin",
+                "administration"
+            ],
+            "response": "The college administration includes our respected Principal, Deans, and Department HODs. The main administrative office is located in Block-A on the ground floor. If you have specific inquiries, please contact the helpdesk."
+        },
+        {
+            "tags": [
+                "placement",
+                "placements",
+                "job",
+                "jobs",
+                "salary",
+                "package",
+                "hiring"
+            ],
+            "response": "Our placement cell is highly active! We have seen packages up to 44 LPA with companies like Amazon, Microsoft, and TCS visiting regularly. Check the Placements section on the dashboard for upcoming drives."
+        },
+        {
+            "tags": [
+                "library",
+                "book",
+                "books",
+                "borrow",
+                "read",
+                "fine"
+            ],
+            "response": "The Central Library is located on the 2nd Floor. You can check book availability and your current fines through the Library section in this portal. Issued books must be returned within 14 days."
+        },
+        {
+            "tags": [
+                "bus",
+                "transport",
+                "tracking",
+                "route",
+                "buses"
+            ],
+            "response": "We provide GPS-enabled smart transport across multiple routes including Kakinada, Amalapuram, and Rajahmundry. You can track your bus live and check ETA in the Transport section."
+        },
+        {
+            "tags": [
+                "results",
+                "marks",
+                "grade",
+                "cgpa",
+                "sgpa",
+                "pass",
+                "fail"
+            ],
+            "response": "Semester results and your overall CGPA can be viewed in the Results section using your Roll Number and a secure OTP. The system automatically charts your academic progress."
+        },
+        {
+            "tags": [
+                "timetable",
+                "schedule",
+                "class",
+                "period",
+                "routine"
+            ],
+            "response": "Your class schedule is managed by our AI Timetable Engine. You can view your specific section's daily timetable by clicking the Timetable app on the dashboard."
+        },
+        {
+            "tags": [
+                "hi",
+                "hello",
+                "hey",
+                "greetings",
+                "good morning",
+                "good afternoon"
+            ],
+            "response": "Hello! I am the Campus AI Assistant. I can help you with timetables, admissions, syllabus, hackathons, and general college queries. What would you like to know?"
+        },
+        {
+            "tags": [
+                "info abt our college"
+            ],
+            "response": "[Extracted Knowledge]:\nBVC ENGINEERING COLLEGE  Bonam Venkata Chalamayya Engineering College \u2014 Odalarevu  Autonomous Institution | Approved by AICTE | Accredited by NAAC | Permanently Affiliated to JNTUK  1. EXECUTIVE SUMMARY & PROFILE  BVC Engineering College (Odalarevu)   was established in 1997 under the leadership of the BVC Educational Society. Situated in the East Godavari district of Andhra Pradesh, it is a pioneer in bringing quality engineering education to the Konaseema region. As an autonomous institution permanently affiliated with Jawaharlal Nehru Technological University, Kakinada (JNTUK), the college designs industry-aligned curricula aimed at technical competence, innovation, and career readiness.  Key Institutional Attributes  Established:   1997  Status:   Autonomous Institute  Affiliation:   JNTU Kakinada (JNTUK)  Accreditation:   NAAC Accredited  Approvals:   AICTE, Govt. of AP  Management:   BVC Educational Society  Location & Reach  Campus Address:   Odalarevu, Allavaram Mandal  District:   East Godavari / Konaseema  State & PIN:   Andhra Pradesh - 533210  Campus Area:   Sprawling Green Campus  Transport:   Fleet across East Godavari  Official Web:   bvce.edu.in  25+  YEARS OF EDUCATIONAL SERVICE  7  UNDERGRADUATE B.TECH BRANCHES  14 LPA  HIGHEST SALARY PACKAGE  30+  ANNUAL CORPORATE RECRUITERS  2. ACADEMIC PROGRAMS OFFERED  The institution offers a full ladder of technical programs ranging from 3-year diploma courses to post-graduate specializations:  Undergraduate Programs \u2014 B.Tech (4 Years)  Computer Science & Engineering (CSE) \u2022 Artificial Intelligence & Machine Learning (AI&ML) \u2022 Artificial Intelligence & Data Science (AI&DS) \u2022 Electronics & Communication (ECE) \u2022 Electrical & Electronics (EEE) \u2022 Mechanical Engineering (ME) \u2022 Civil Engineering (CE)  Postgraduate Programs \u2014 M.Tech & MCA (2 Years)  M.Tech in CSE, VLSI & Embedded Systems, Thermal Engineering, and Power Electronics \u2022 Master of Computer Applications (MCA)  Polytechnic Diploma Programs (3 Years)  Diploma specializations in Computer Science, Electronics & Communication, Electrical & Electronics, Civil, and Mechanical Engineering.  BVC Engineering College, Odalarevu \u2014 Institutional Profile   Page 1 of 2\n3. ADMISSIONS & ELIGIBILITY FRAMEWORK  Admissions are governed strictly by the guidelines set by the Andhra Pradesh State Council of Higher Education (APSCHE) and JNTU Kakinada.  Program   Entrance Exam / Pathway   Eligibility Criteria  B.Tech (1st Year)   AP EAPCET (EAMCET) / JEE Main   10+2 / Intermediate with Math, Physics & Chemistry (45%+ aggregate)  B.Tech (Lateral)   AP ECET (Engineering Common Entrance) Diploma in Engineering / B.Sc. with Math (Direct 2nd year admission)  M.Tech   AP PGECET / GATE   B.Tech / B.E. in relevant specialization from a recognized university  MCA   AP ICET   Bachelor\u2019s Degree with Mathematics at 10+2 level or Graduation level  Diploma   AP POLYCET   10th Class (SSC) pass or equivalent from recognized state board  4. TRAINING & PLACEMENT CELL (TPC)  The dedicated Training and Placement Cell works closely with industry partners to prepare students for corporate recruitment starting from the second year of study.  Skill Enhancement Focus  Technical Skill Sets:   Data Structures, Full-Stack Web Development, Java/C++, Python, and SQL.  Aptitude & Reasoning:   Quantitative ability, logical reasoning, and analytical problem solving.  Soft Skills:   Technical writing, group discussions, mock interviews, and corporate etiquette.  Top Placement Partners  IT Services:   TCS, DXC Technology, Tech Mahindra, HCL, Mphasis, Wipro.  Product & Software:   Virtusa, Covalense Digital, Miracle Software Systems, Hexaware.  Core Sector:   Infrastructure & manufacturing firms recruiting ME, CE & EEE graduates.  5. CAMPUS INFRASTRUCTURE & AMENITIES  BVC Engineering College features a self-contained campus equipped with technical and residential infrastructure:  Computing & Internet Infrastructure:   State-of-the-art computer centers with high-speed internet connectivity, development toolkits, and software simulation suites for research and lab work.  Central Library:   Extensive repository containing thousands of technical titles, national/international research journals, and digital membership with NDLI (National Digital Library of India).  Departmental Laboratories:   Specialized laboratories configured to satisfy AICTE standards and JNTUK curriculum mandates for practical experimentation.  Residential Hostels:   Secure, separate residential quarters for male and female students with dining facilities, recreation rooms, and round-the-clock security.  Campus Connectivity & Transport:   A dedicated fleet of buses providing transportation for day scholars and staff across Amalapuram, Ravulapalem, Kakinada, and neighboring areas.  Sports & Student Welfare:   Extensive sports grounds for cricket, volleyball, basketball, and athletics, alongside indoor gym facilities and a student health center.  BVC Engineering College, Odalarevu \u2014 Institutional Profile   Page 2 of 2"
+        },
+        {
+            "tags": [
+                "info abt our college"
+            ],
+            "response": "[Extracted Knowledge]:\nBVC ENGINEERING COLLEGE  Bonam Venkata Chalamayya Engineering College \u2014 Odalarevu  Autonomous Institution | Approved by AICTE | Accredited by NAAC | Permanently Affiliated to JNTUK  1. EXECUTIVE SUMMARY & PROFILE  BVC Engineering College (Odalarevu)   was established in 1997 under the leadership of the BVC Educational Society. Situated in the East Godavari district of Andhra Pradesh, it is a pioneer in bringing quality engineering education to the Konaseema region. As an autonomous institution permanently affiliated with Jawaharlal Nehru Technological University, Kakinada (JNTUK), the college designs industry-aligned curricula aimed at technical competence, innovation, and career readiness.  Key Institutional Attributes  Established:   1997  Status:   Autonomous Institute  Affiliation:   JNTU Kakinada (JNTUK)  Accreditation:   NAAC Accredited  Approvals:   AICTE, Govt. of AP  Management:   BVC Educational Society  Location & Reach  Campus Address:   Odalarevu, Allavaram Mandal  District:   East Godavari / Konaseema  State & PIN:   Andhra Pradesh - 533210  Campus Area:   Sprawling Green Campus  Transport:   Fleet across East Godavari  Official Web:   bvce.edu.in  25+  YEARS OF EDUCATIONAL SERVICE  7  UNDERGRADUATE B.TECH BRANCHES  14 LPA  HIGHEST SALARY PACKAGE  30+  ANNUAL CORPORATE RECRUITERS  2. ACADEMIC PROGRAMS OFFERED  The institution offers a full ladder of technical programs ranging from 3-year diploma courses to post-graduate specializations:  Undergraduate Programs \u2014 B.Tech (4 Years)  Computer Science & Engineering (CSE) \u2022 Artificial Intelligence & Machine Learning (AI&ML) \u2022 Artificial Intelligence & Data Science (AI&DS) \u2022 Electronics & Communication (ECE) \u2022 Electrical & Electronics (EEE) \u2022 Mechanical Engineering (ME) \u2022 Civil Engineering (CE)  Postgraduate Programs \u2014 M.Tech & MCA (2 Years)  M.Tech in CSE, VLSI & Embedded Systems, Thermal Engineering, and Power Electronics \u2022 Master of Computer Applications (MCA)  Polytechnic Diploma Programs (3 Years)  Diploma specializations in Computer Science, Electronics & Communication, Electrical & Electronics, Civil, and Mechanical Engineering.  BVC Engineering College, Odalarevu \u2014 Institutional Profile   Page 1 of 2\n3. ADMISSIONS & ELIGIBILITY FRAMEWORK  Admissions are governed strictly by the guidelines set by the Andhra Pradesh State Council of Higher Education (APSCHE) and JNTU Kakinada.  Program   Entrance Exam / Pathway   Eligibility Criteria  B.Tech (1st Year)   AP EAPCET (EAMCET) / JEE Main   10+2 / Intermediate with Math, Physics & Chemistry (45%+ aggregate)  B.Tech (Lateral)   AP ECET (Engineering Common Entrance) Diploma in Engineering / B.Sc. with Math (Direct 2nd year admission)  M.Tech   AP PGECET / GATE   B.Tech / B.E. in relevant specialization from a recognized university  MCA   AP ICET   Bachelor\u2019s Degree with Mathematics at 10+2 level or Graduation level  Diploma   AP POLYCET   10th Class (SSC) pass or equivalent from recognized state board  4. TRAINING & PLACEMENT CELL (TPC)  The dedicated Training and Placement Cell works closely with industry partners to prepare students for corporate recruitment starting from the second year of study.  Skill Enhancement Focus  Technical Skill Sets:   Data Structures, Full-Stack Web Development, Java/C++, Python, and SQL.  Aptitude & Reasoning:   Quantitative ability, logical reasoning, and analytical problem solving.  Soft Skills:   Technical writing, group discussions, mock interviews, and corporate etiquette.  Top Placement Partners  IT Services:   TCS, DXC Technology, Tech Mahindra, HCL, Mphasis, Wipro.  Product & Software:   Virtusa, Covalense Digital, Miracle Software Systems, Hexaware.  Core Sector:   Infrastructure & manufacturing firms recruiting ME, CE & EEE graduates.  5. CAMPUS INFRASTRUCTURE & AMENITIES  BVC Engineering College features a self-contained campus equipped with technical and residential infrastructure:  Computing & Internet Infrastructure:   State-of-the-art computer centers with high-speed internet connectivity, development toolkits, and software simulation suites for research and lab work.  Central Library:   Extensive repository containing thousands of technical titles, national/international research journals, and digital membership with NDLI (National Digital Library of India).  Departmental Laboratories:   Specialized laboratories configured to satisfy AICTE standards and JNTUK curriculum mandates for practical experimentation.  Residential Hostels:   Secure, separate residential quarters for male and female students with dining facilities, recreation rooms, and round-the-clock security.  Campus Connectivity & Transport:   A dedicated fleet of buses providing transportation for day scholars and staff across Amalapuram, Ravulapalem, Kakinada, and neighboring areas.  Sports & Student Welfare:   Extensive sports grounds for cricket, volleyball, basketball, and athletics, alongside indoor gym facilities and a student health center.  BVC Engineering College, Odalarevu \u2014 Institutional Profile   Page 2 of 2"
+        },
+        {
+            "tags": [
+                "profile",
+                "about",
+                "established",
+                "affiliation",
+                "accreditation",
+                "location",
+                "address"
+            ],
+            "response": "BVC Engineering College (Odalarevu) was established in 1997 under the BVC Educational Society. It is an autonomous institute affiliated with JNTU Kakinada (JNTUK), approved by AICTE, and accredited by NAAC. The sprawling green campus is located in Odalarevu, Allavaram Mandal, East Godavari (Andhra Pradesh - 533210). It has 25+ years of educational service, 7 undergraduate B.Tech branches, a highest salary package of 14 LPA, and 30+ annual corporate recruiters."
+        },
+        {
+            "tags": [
+                "programs",
+                "courses",
+                "b.tech",
+                "m.tech",
+                "mca",
+                "diploma",
+                "branches",
+                "degrees"
+            ],
+            "response": "The institution offers B.Tech (4 Years) in CSE, AI&ML, AI&DS, ECE, EEE, ME, and CE. Postgraduate Programs (2 Years) include M.Tech in CSE, VLSI & Embedded Systems, Thermal Engineering, Power Electronics, and MCA. It also offers 3-Year Polytechnic Diploma programs in CSE, ECE, EEE, CE, and ME."
+        },
+        {
+            "tags": [
+                "admission",
+                "eligibility",
+                "eapcet",
+                "eamcet",
+                "ecet",
+                "pgecet",
+                "gate",
+                "icet",
+                "polycet",
+                "join"
+            ],
+            "response": "Admissions follow APSCHE and JNTUK guidelines. B.Tech (1st Year) requires AP EAPCET/JEE Main and 10+2 with Math, Physics & Chemistry (45%+ aggregate). B.Tech (Lateral) requires AP ECET and a Diploma/B.Sc. M.Tech requires AP PGECET/GATE and a B.Tech/B.E. MCA requires AP ICET and a Bachelor's Degree. Diploma requires AP POLYCET and 10th Class (SSC) pass."
+        },
+        {
+            "tags": [
+                "placement",
+                "placements",
+                "jobs",
+                "recruitment",
+                "companies",
+                "tcs",
+                "salary",
+                "package"
+            ],
+            "response": "The Training and Placement Cell (TPC) prepares students from the 2nd year, focusing on Technical Skills, Aptitude, and Soft Skills. Top Placement Partners include IT Services (TCS, DXC, Tech Mahindra, HCL, Mphasis, Wipro), Product & Software (Virtusa, Covalense, Miracle, Hexaware), and Core Sector infrastructure firms."
+        },
+        {
+            "tags": [
+                "infrastructure",
+                "facilities",
+                "hostel",
+                "library",
+                "transport",
+                "sports",
+                "labs",
+                "internet",
+                "canteen"
+            ],
+            "response": "Campus amenities include high-speed Computing & Internet, a Central Library with NDLI membership, AICTE-standard Departmental Laboratories, secure Residential Hostels for male and female students with dining and security, a fleet of buses for Transport, and extensive Sports & Student Welfare facilities (cricket, volleyball, basketball, athletics, indoor gym, health center)."
+        }
+    ]
+}

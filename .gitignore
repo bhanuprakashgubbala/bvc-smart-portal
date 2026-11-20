@@ -1,0 +1,41 @@
+# Environment and Secret Files
+.env
+*.env.local
+*.env.*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Database temporary and WAL files
+*.db-journal
+*.db-shm
+*.db-wal
+# Archives and backups
+*.zip
+*.tar.gz
+*.rar
+backups/
+scratch/
+*.orig
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.user

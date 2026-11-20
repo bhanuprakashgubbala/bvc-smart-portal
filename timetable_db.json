@@ -1,0 +1,797 @@
+{
+    "sections": [
+        "CSE-A",
+        "I CSE-A",
+        "I CSE-B",
+        "I CSE-C",
+        "II CSE-A",
+        "II CSE-B",
+        "II CSE-C",
+        "III CSE-A",
+        "III CSE-B",
+        "III CSE-C",
+        "IV CSE-A",
+        "IV CSE-B",
+        "IV CSE-C",
+        "I ECE-A",
+        "I ECE-B",
+        "I ECE-C",
+        "II ECE-A",
+        "II ECE-B",
+        "II ECE-C",
+        "III ECE-A",
+        "III ECE-B",
+        "III ECE-C",
+        "IV ECE-A",
+        "IV ECE-B",
+        "IV ECE-C",
+        "I MECH-A",
+        "I MECH-B",
+        "I MECH-C",
+        "II MECH-A",
+        "II MECH-B",
+        "II MECH-C",
+        "III MECH-A",
+        "III MECH-B",
+        "III MECH-C",
+        "IV MECH-A",
+        "IV MECH-B",
+        "IV MECH-C",
+        "I CIVIL-A",
+        "I CIVIL-B",
+        "I CIVIL-C",
+        "II CIVIL-A",
+        "II CIVIL-B",
+        "II CIVIL-C",
+        "III CIVIL-A",
+        "III CIVIL-B",
+        "III CIVIL-C",
+        "IV CIVIL-A",
+        "IV CIVIL-B",
+        "IV CIVIL-C",
+        "I EEE-A",
+        "I EEE-B",
+        "I EEE-C",
+        "II EEE-A",
+        "II EEE-B",
+        "II EEE-C",
+        "III EEE-A",
+        "III EEE-B",
+        "III EEE-C",
+        "IV EEE-A",
+        "IV EEE-B",
+        "IV EEE-C",
+        "I CSM-A",
+        "I CSM-B",
+        "I CSM-C",
+        "II CSM-A",
+        "II CSM-B",
+        "II CSM-C",
+        "III CSM-A",
+        "III CSM-B",
+        "III CSM-C",
+        "IV CSM-A",
+        "IV CSM-B",
+        "IV CSM-C",
+        "I CAD-A",
+        "I CAD-B",
+        "I CAD-C",
+        "II CAD-A",
+        "II CAD-B",
+        "II CAD-C",
+        "III CAD-A",
+        "III CAD-B",
+        "III CAD-C",
+        "IV CAD-A",
+        "IV CAD-B",
+        "IV CAD-C"
+    ],
+    "subjects": {
+        "CSE-A": [
+            "OOPS",
+            "ADS & AA",
+            "PP",
+            "UHV",
+            "DLCO",
+            "DMGT",
+            "ES",
+            "CRT"
+        ],
+        "CSE-B": [
+            "OOPS",
+            "ADS & AA",
+            "PP",
+            "UHV",
+            "DLCO",
+            "DMGT",
+            "ES",
+            "CRT"
+        ],
+        "Mech": [
+            "na",
+            "ds",
+            "eb",
+            "wr",
+            "po",
+            "lu",
+            "mn"
+        ],
+        "I CSE-A": [
+            "C PROG - Programming in C"
+        ],
+        "II ECE-B": [
+            "SIGSYS - Signals and Systems"
+        ]
+    },
+    "faculty": [
+        {
+            "id": 1,
+            "name": "Krishnaveni madam",
+            "subject": "OOPS",
+            "phone": "1234567890",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Santoshi madam",
+            "subject": "ADS & AA",
+            "phone": "0123456789",
+            "sections": [
+                "CSE A"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Revathi madam",
+            "subject": "PP",
+            "phone": "1023456789",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "M Raju Sir",
+            "subject": "UHV",
+            "phone": "1203456789",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Murti sir",
+            "subject": "DLCO",
+            "phone": "1230456789",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "B.S.N.MURTHY",
+            "faculty_code": "BSNM",
+            "subject": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+            "subject_code": "OOPS JAVA LAB",
+            "phone": "9493276456",
+            "sections": [
+                "CSE A"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "B.S.N.MURTHY",
+            "faculty_code": "BSNM",
+            "subject": "QUANTUM COMPUTING",
+            "subject_code": "QC",
+            "phone": "9493276456",
+            "sections": []
+        },
+        {
+            "id": 8,
+            "name": "G.SANTHOSHI",
+            "faculty_code": "GS",
+            "subject": "ADVANCED DATA STRUCTURES AND ALGORITHM ANALYSIS LAB",
+            "subject_code": "ADS & AA LAB",
+            "phone": "8367502017",
+            "sections": [
+                "CSE A"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "G.SANTHOSHI",
+            "faculty_code": "GS",
+            "subject": "ADVANCED DATA STRUCTURES AND ALGORITHM ANALYSIS",
+            "subject_code": "ADS & AA",
+            "phone": "8367502017",
+            "sections": []
+        },
+        {
+            "id": 10,
+            "name": "A.L.PRASAD",
+            "faculty_code": "ALP",
+            "subject": "COMPUTER NETWORKS LAB",
+            "subject_code": "CN LAB",
+            "phone": "9949694878",
+            "sections": []
+        },
+        {
+            "id": 11,
+            "name": "A.L.PRASAD",
+            "faculty_code": "ALP",
+            "subject": "COMPUTER NETWORKS",
+            "subject_code": "CN",
+            "phone": "9949694878",
+            "sections": []
+        },
+        {
+            "id": 12,
+            "name": "A.L.PRASAD",
+            "faculty_code": "ALP",
+            "subject": "PYTHON PROGRAMMING LAB",
+            "subject_code": "PYTHON PROGRAMMING LAB",
+            "phone": "9949694878",
+            "sections": []
+        },
+        {
+            "id": 13,
+            "name": "A.LAKSHMI PRASAD",
+            "faculty_code": "ALP",
+            "subject": "DEVOPS",
+            "subject_code": "DEVOPS",
+            "phone": "9949694878",
+            "sections": []
+        },
+        {
+            "id": 14,
+            "name": "A.LAKSHMI PRASAD",
+            "faculty_code": "ALP",
+            "subject": "AM",
+            "subject_code": "AM",
+            "phone": "9949694878",
+            "sections": []
+        },
+        {
+            "id": 15,
+            "name": "A.SAI KRISHNA VENI",
+            "faculty_code": "ASKV",
+            "subject": "MACHINE LEARNING",
+            "subject_code": "ML",
+            "phone": "8367600704",
+            "sections": []
+        },
+        {
+            "id": 16,
+            "name": "A.SAI KRISHNA VENI",
+            "faculty_code": "ASKV",
+            "subject": "MACHINE LEARNING LAB",
+            "subject_code": "ML LAB",
+            "phone": "8367600704",
+            "sections": []
+        },
+        {
+            "id": 17,
+            "name": "A.SAI KRISHNA VENI",
+            "faculty_code": "ASKV",
+            "subject": "COMPUTER VISION",
+            "subject_code": "COMPUTER VISION",
+            "phone": "8367600704",
+            "sections": []
+        },
+        {
+            "id": 18,
+            "name": "A.SAI KRISHNA VENI",
+            "faculty_code": "ASKV",
+            "subject": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+            "subject_code": "OOPS JAVA",
+            "phone": "8367600704",
+            "sections": []
+        },
+        {
+            "id": 19,
+            "name": "A.SAI KRISHNA VENI",
+            "faculty_code": "ASKV",
+            "subject": "COMPUTER NETWORKS LAB",
+            "subject_code": "CN LAB",
+            "phone": "8367600704",
+            "sections": []
+        },
+        {
+            "id": 20,
+            "name": "A.SAI KRISHNA VENI",
+            "faculty_code": "ASKV",
+            "subject": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+            "subject_code": "OOPS JAVA LAB",
+            "phone": "8367600704",
+            "sections": []
+        },
+        {
+            "id": 21,
+            "name": "B.G.BHAVANI",
+            "faculty_code": "BGB",
+            "subject": "AUTOMATA THEORY & COMPILER DESIGN",
+            "subject_code": "AT&CD",
+            "phone": "9603087788",
+            "sections": []
+        },
+        {
+            "id": 22,
+            "name": "B.G.BHAVANI",
+            "faculty_code": "BGB",
+            "subject": "DATA WARE HOUSING & DATA MINING",
+            "subject_code": "DWDM",
+            "phone": "9603087788",
+            "sections": []
+        },
+        {
+            "id": 23,
+            "name": "B.G.BHAVANI",
+            "faculty_code": "BGB",
+            "subject": "DATA WARE HOUSING & DATA MINING LAB",
+            "subject_code": "DWDM LAB",
+            "phone": "9603087788",
+            "sections": []
+        },
+        {
+            "id": 24,
+            "name": "B.GANGA BHAVANI",
+            "faculty_code": "BGB",
+            "subject": "CRYPTOGRAPHY & NETWORK SECURITY",
+            "subject_code": "CNS",
+            "phone": "9603087788",
+            "sections": []
+        },
+        {
+            "id": 25,
+            "name": "B.GANGA BHAVANI",
+            "faculty_code": "BGB",
+            "subject": "MFCS",
+            "subject_code": "MFCS",
+            "phone": "9603087788",
+            "sections": []
+        },
+        {
+            "id": 26,
+            "name": "B.REVATHI",
+            "faculty_code": "BR",
+            "subject": "FORMAL LANGUAGES & AUTOMATA THEORY",
+            "subject_code": "FLAT",
+            "phone": "9014051295",
+            "sections": []
+        },
+        {
+            "id": 27,
+            "name": "B.REVATHI",
+            "faculty_code": "BR",
+            "subject": "PYTHON PROGRAMMING LAB",
+            "subject_code": "PYTHON PROGRAMMING LAB",
+            "phone": "9014051295",
+            "sections": []
+        },
+        {
+            "id": 28,
+            "name": "CH.ANIL KUMAR",
+            "faculty_code": "CAK",
+            "subject": "DEEP LEARNING",
+            "subject_code": "DEEP LEARNING",
+            "phone": "9177799592",
+            "sections": []
+        },
+        {
+            "id": 29,
+            "name": "CH.ANIL KUMAR",
+            "faculty_code": "CAK",
+            "subject": "COMPUTER NETWORKS LAB",
+            "subject_code": "CN LAB",
+            "phone": "9177799592",
+            "sections": []
+        },
+        {
+            "id": 30,
+            "name": "CH.ANIL KUMAR",
+            "faculty_code": "CAK",
+            "subject": "COMPUTER NETWORKS",
+            "subject_code": "CN",
+            "phone": "9177799592",
+            "sections": []
+        },
+        {
+            "id": 31,
+            "name": "CH.SRILATHA",
+            "faculty_code": "CS",
+            "subject": "ENVIRONMENT SCIENCE",
+            "subject_code": "ENVIRONMENT SCIENCE",
+            "phone": "9573091306",
+            "sections": []
+        },
+        {
+            "id": 32,
+            "name": "I-B.GANGA BHAVANI",
+            "faculty_code": "I-BGB",
+            "subject": "SEMINAR",
+            "subject_code": "SEMINAR",
+            "phone": "9603087788",
+            "sections": []
+        },
+        {
+            "id": 33,
+            "name": "II-B.GANGA BHAVANI",
+            "faculty_code": "I-BGB",
+            "subject": "SEMINAR",
+            "subject_code": "SEMINAR",
+            "phone": "9603087788",
+            "sections": []
+        },
+        {
+            "id": 34,
+            "name": "M.RAJA",
+            "faculty_code": "MR",
+            "subject": "HUMAN RESOURCES & PROJECT MANAGEMENT",
+            "subject_code": "HR & PM",
+            "phone": "9963945908",
+            "sections": []
+        },
+        {
+            "id": 35,
+            "name": "M.RAJA",
+            "faculty_code": "MR",
+            "subject": "UNIVERSAL HUMAN VALUES",
+            "subject_code": "UHV",
+            "phone": "9963945908",
+            "sections": []
+        },
+        {
+            "id": 36,
+            "name": "M.S.VENU GOPAL",
+            "faculty_code": "MSVG",
+            "subject": "BLOCK CHAIN",
+            "subject_code": "BLOCK CHAIN",
+            "phone": "9247473147",
+            "sections": []
+        },
+        {
+            "id": 37,
+            "name": "M.S.VENU GOPAL",
+            "faculty_code": "MSVG",
+            "subject": "PROMPT ENGINEERING",
+            "subject_code": "PROMPT ENGINEERING",
+            "phone": "9247473147",
+            "sections": []
+        },
+        {
+            "id": 38,
+            "name": "M.S.VENU GOPAL",
+            "faculty_code": "MSVG",
+            "subject": "QUANTUM COMPUTING",
+            "subject_code": "QC",
+            "phone": "9247473147",
+            "sections": []
+        },
+        {
+            "id": 39,
+            "name": "M.SWARNA",
+            "faculty_code": "MS",
+            "subject": "SOFT SKILLS",
+            "subject_code": "SOFT SKILLS",
+            "phone": "8106366803",
+            "sections": []
+        },
+        {
+            "id": 40,
+            "name": "M.V.K.SUBASH",
+            "faculty_code": "MVKS",
+            "subject": "ACN",
+            "subject_code": "ACN",
+            "phone": "9959710505",
+            "sections": []
+        },
+        {
+            "id": 41,
+            "name": "M.V.K.SUBASH",
+            "faculty_code": "MVKS",
+            "subject": "DATA WARE HOUSING & DATA MINING LAB",
+            "subject_code": "DWDM LAB",
+            "phone": "9959710505",
+            "sections": []
+        },
+        {
+            "id": 42,
+            "name": "M.V.K.SUBASH",
+            "faculty_code": "MVKS",
+            "subject": "QUANTUM COMPUTING",
+            "subject_code": "QC",
+            "phone": "9959710505",
+            "sections": []
+        },
+        {
+            "id": 43,
+            "name": "M.V.K.SUBASH",
+            "faculty_code": "MVKS",
+            "subject": "DATA WARE HOUSING & DATA MINING",
+            "subject_code": "DWDM",
+            "phone": "9959710505",
+            "sections": []
+        },
+        {
+            "id": 44,
+            "name": "M.V.K.SUBASH",
+            "faculty_code": "MVKS",
+            "subject": "ADVANCED DATA STRUCTURES AND ALGORITHM ANALYSIS LAB",
+            "subject_code": "ADS & AA LAB",
+            "phone": "9959710505",
+            "sections": []
+        },
+        {
+            "id": 45,
+            "name": "M.V.K.SUBASH",
+            "faculty_code": "MVKS",
+            "subject": "ADVANCED DATA STRUCTURES AND ALGORITHM ANALYSIS",
+            "subject_code": "ADS & AA",
+            "phone": "9959710505",
+            "sections": []
+        },
+        {
+            "id": 46,
+            "name": "R.SRIYA",
+            "faculty_code": "RS",
+            "subject": "FLUTTER",
+            "subject_code": "TINKERING",
+            "phone": "6305965123",
+            "sections": []
+        },
+        {
+            "id": 47,
+            "name": "T.V.L.SRINIVAS",
+            "faculty_code": "TVLS",
+            "subject": "FULL STACK DEVELOPMENT LAB",
+            "subject_code": "FSD-I LAB",
+            "phone": "9705927655",
+            "sections": []
+        },
+        {
+            "id": 48,
+            "name": "T.V.L.SRINIVAS",
+            "faculty_code": "TVLS",
+            "subject": "FULL STACK DEVELOPMENT LAB",
+            "subject_code": "FSD-II LAB",
+            "phone": "9705927655",
+            "sections": []
+        },
+        {
+            "id": 49,
+            "name": "VENU GOPAL",
+            "faculty_code": "VG",
+            "subject": "ADWDM LAB",
+            "subject_code": "ADWDM LAB",
+            "phone": "9247473147",
+            "sections": []
+        },
+        {
+            "id": 50,
+            "name": "VENU GOPAL",
+            "faculty_code": "VG",
+            "subject": "NATURAL LANGUAGE PROCESSING LAB",
+            "subject_code": "NLP LAB",
+            "phone": "9247473147",
+            "sections": []
+        },
+        {
+            "id": 51,
+            "name": "VENU GOPAL",
+            "faculty_code": "VG",
+            "subject": "NATURAL LANGUAGE PROCESSING",
+            "subject_code": "NLP",
+            "phone": "9247473147",
+            "sections": []
+        },
+        {
+            "id": 52,
+            "name": "VENU GOPAL",
+            "faculty_code": "VG",
+            "subject": "ADWDM",
+            "subject_code": "ADWDM",
+            "phone": "9247473147",
+            "sections": []
+        },
+        {
+            "id": 53,
+            "name": "Y.KAVITHA",
+            "faculty_code": "YK",
+            "subject": "DISCRETE MATHEMATICS & GRAPH THEORY",
+            "subject_code": "DMGT",
+            "phone": "9908564199",
+            "sections": []
+        },
+        {
+            "id": 54,
+            "name": "Y.NARAYANA MURTY",
+            "faculty_code": "YNM",
+            "subject": "DIGITAL LOGIC & COMPUTER ORGANIZATION",
+            "subject_code": "DLCO",
+            "phone": "9177464448",
+            "sections": []
+        },
+        {
+            "id": 55,
+            "name": "Y.RAMA NAIDU",
+            "faculty_code": "YRN",
+            "subject": "ADVANCED JAVA LAB",
+            "subject_code": "ADV JAVA LAB",
+            "phone": "9492153939",
+            "sections": []
+        },
+        {
+            "id": 56,
+            "name": "Y.RAMA NAIDU",
+            "faculty_code": "YRN",
+            "subject": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA",
+            "subject_code": "OOPS JAVA",
+            "phone": "9492153939",
+            "sections": []
+        },
+        {
+            "id": 57,
+            "name": "Y.RAMA NAIDU",
+            "faculty_code": "YRN",
+            "subject": "OBJECT ORIENTED PROGRAMMING THROUGH JAVA LAB",
+            "subject_code": "OOPS JAVA LAB",
+            "phone": "9492153939",
+            "sections": []
+        },
+        {
+            "id": 58,
+            "name": "Y.RAMA NAIDU",
+            "faculty_code": "YRN",
+            "subject": "ADVANCED JAVA",
+            "subject_code": "ADV JAVA",
+            "phone": "9492153939",
+            "sections": []
+        },
+        {
+            "id": 59,
+            "name": "Test Professor 77",
+            "subject": "Core",
+            "phone": "9998887771",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Faculty TFAC_63071",
+            "subject": "Core",
+            "phone": "1796263071",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Faculty TFAC_75838",
+            "subject": "Core",
+            "phone": "1797475838",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 62,
+            "name": "Faculty TFAC_54778",
+            "subject": "Core",
+            "phone": "1799554778",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 63,
+            "name": "Faculty TFAC_76660",
+            "subject": "Core",
+            "phone": "1803576660",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 64,
+            "name": "Faculty TFAC_32950",
+            "subject": "Core",
+            "phone": "1804332950",
+            "sections": [
+                "CSE-A"
+            ]
+        },
+        {
+            "id": 65,
+            "name": "Dr. K. Sharma",
+            "subject": "C PROG",
+            "phone": "9876543210",
+            "sections": [
+                "I CSE-A"
+            ]
+        },
+        {
+            "id": 66,
+            "name": "Dr. P. Rao",
+            "subject": "SIGSYS",
+            "phone": "9876543210",
+            "sections": [
+                "II ECE-B"
+            ]
+        }
+    ],
+    "labs": [
+        {
+            "name": "ADS&AA",
+            "faculty": "Santoshi madam",
+            "duration": "3"
+        },
+        {
+            "section": "CSE-A",
+            "name": "ADS&AA",
+            "faculty": "Santoshi madam",
+            "duration": "2"
+        },
+        {
+            "section": "CSE-A",
+            "name": "OOP",
+            "faculty": "Krishnaveni madam",
+            "duration": "2"
+        },
+        {
+            "section": "CSE-A",
+            "name": "OOP",
+            "faculty": "Krishnaveni madam",
+            "duration": "2"
+        },
+        {
+            "section": "CSE-A",
+            "day": "Monday",
+            "startPeriod": 1,
+            "name": "oop lab",
+            "faculty": "Krishnaveni madam",
+            "duration": 3
+        },
+        {
+            "section": "CSE-A",
+            "day": "Thursday",
+            "startPeriod": 5,
+            "name": "pp lab",
+            "faculty": "Revathi madam",
+            "duration": 3
+        },
+        {
+            "section": "CSE-A",
+            "day": "Wednesday",
+            "startPeriod": 1,
+            "name": "ads&aa",
+            "faculty": "Santoshi madam",
+            "duration": 3
+        }
+    ],
+    "weeklySingles": [
+        {
+            "section": "CSE-A",
+            "subject": "CRT"
+        },
+        {
+            "section": "CSE-A",
+            "subject": "CRT"
+        },
+        {
+            "section": "CSE-A",
+            "day": "Tuesday",
+            "startPeriod": 2,
+            "subject": "crt"
+        }
+    ],
+    "settings": {
+        "periods": 7,
+        "start": "09:00",
+        "end": "15:50"
+    },
+    "generatedSchedule": true
+}

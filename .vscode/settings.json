@@ -1,0 +1,28 @@
+{
+    "liveServer.settings.port": 5503,
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "*.db",
+        "*.db*",
+        "**/*.db*",
+        "bvc_portal.db*",
+        "**/bvc_portal.db*",
+        "*.sqlite*",
+        "**/*.sqlite*",
+        "*.json",
+        "**/*.json",
+        "timetable_db.json",
+        "knowledge_base.json",
+        "*.py",
+        "**/*.py",
+        "*.pyc",
+        "**/*.pyc",
+        "**/__pycache__/**",
+        "backups/**",
+        "*.log",
+        "**/*.log",
+        "*.sql",
+        "**/*.sql"
+    ],
+    "liveServer.settings.wait": 1000
+}
