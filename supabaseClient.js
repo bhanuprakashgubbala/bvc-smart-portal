@@ -86,16 +86,28 @@ window.fetch = async function(resource, init) {
         if (token && !headers['Authorization']) headers['Authorization'] = 'Bearer ' + token;
         init.headers = headers;
 
-        // MODE 1: Prioritize local Flask server at http://127.0.0.1:5000 (with automatic Supabase fallback)
+        // MODE 1: Handle Backend API requests
+        const isLocalHost = (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost' || window.location.protocol === 'file:');
         let flaskUrl = url;
         if (!url.startsWith('http://') && !url.startsWith('https://')) {
-            flaskUrl = (isFlaskDirectPort ? '' : 'http://127.0.0.1:5000') + (url.startsWith('/') ? '' : '/') + url;
+            if (isLocalHost && window.location.port !== '5000') {
+                flaskUrl = 'http://127.0.0.1:5000' + (url.startsWith('/') ? '' : '/') + url;
+            } else {
+                flaskUrl = (url.startsWith('/') ? '' : '/') + url;
+            }
+        } else if (url.includes('127.0.0.1:5000') || url.includes('localhost:5000')) {
+            if (!isLocalHost) {
+                flaskUrl = url.replace(/https?:\/\/(?:127\.0\.0\.1|localhost):5000/, '');
+            }
         }
         try {
-            return await rawFetch.call(this, flaskUrl, init);
+            const resp = await rawFetch.call(this, flaskUrl, init);
+            // If we got a real JSON/backend response, return it
+            if (resp && (resp.ok || resp.status < 500)) {
+                return resp;
+            }
         } catch (e) {
-            // Flask server unreachable, fallback to Supabase Cloud
-            console.warn('[Backend Notice] Local Flask server unreachable, using Supabase Cloud fallback:', e);
+            console.warn('[Backend Notice] Backend server unreachable, trying fallback:', e);
         }
 
         // MODE 2: Fallback to Supabase Cloud backend if available

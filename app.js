@@ -1,5 +1,6 @@
 // app.js - Enterprise Grid UI Engine, PDF Workflows & Integrated Registration/Leave System
-const API_BASE = (window.location.protocol === 'file:' || (window.location.port && window.location.port !== '5000'))
+const isLocalHost = (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost' || window.location.protocol === 'file:');
+const API_BASE = (isLocalHost && (window.location.protocol === 'file:' || (window.location.port && window.location.port !== '5000')))
     ? 'http://127.0.0.1:5000/api'
     : '/api';
 
